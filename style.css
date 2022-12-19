@@ -1,0 +1,186 @@
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #f8f8f8;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+    display:block;
+    margin:0;
+}
+
+.navbar-brand{
+    font-family: 'Open Sans', sans-serif;
+    text-transform:uppercase;
+    font-weight: 800;
+}
+
+
+
+.brand-name:hover{
+    color:#986e43;
+    transition .15s ease;
+}
+
+.subheading{
+    font-size:1.5rem;
+}
+
+.ftco-navbar-light {
+    background: transparent !important;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    padding: 0;
+}
+
+.hero-wrap {
+    height: 100vh;
+    min-height: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: 0;
+
+}
+
+.hero-wrap .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .4;
+    background: #222222;
+    z-index: -1;
+}
+
+.hero-wrap .slider-text {
+    height: 100vh;
+    min-height: 750px;
+    color: rgba(255, 255, 255, 0.8);
+    z-index: 3;
+}
+
+.ftco-section {
+    padding: 8em 0;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.testimony-section, .ftco-services-section {
+    position: relative;
+    z-index: 0;
+}
+.ftco-no-pt {
+    padding-top: 0 !important;
+}
+
+.services-wrap {
+    margin-top: -60px;
+    position: relative;
+}
+
+.services-wrap .services {
+    padding: 25px;
+    z-index:100;
+}
+
+.services {
+    width: 100%;
+    background: #fff;
+    padding: 0;
+    margin-bottom: 30px;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-box-shadow: 0px 5px 25px -2px rgb(0 0 0 / 6%);
+    -moz-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 5px 25px -2px rgb(0 0 0 / 6%);
+    }
+
+.help-line{
+    list-style-type:none;
+    align-items:left
+}
+
+.help-line li{
+    text-align: left;
+}
+
+.call-box{
+    position:relative;
+    opacity: .9;
+    background-color: #b4691d;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: 0;
+}
+
+.call-box-overlap{
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    opacity: .8;
+    background: #986e43;
+    z-index: -1;
+}
+
+.ftco-about-section .img {
+    position: relative;
+    height:60vh;
+
+}
+
+.img, .blog-img, .user-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.ftco-about-section .img .counter-wrap {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    padding: 30px;
+}
+
+.about-coaching{
+    font-size:1.1rem;
+}
+
+.ftco-coaching-section{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position:relative;
+    z-index:0;
+}
+
+.coaching-section-overlap{
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    opacity: .9;
+    background: #242424;
+    z-index: -1;
+}
+
+
