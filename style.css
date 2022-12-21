@@ -32,17 +32,23 @@ body {
 }
 
 .ftco-navbar-light {
-    background: transparent !important;
+    background: white; !important;
     position: absolute;
-    top: 20px;
+    top: 0;
     left: 0;
     right: 0;
     z-index: 3;
     padding: 0;
+    height: 5rem;
+}
+
+
+nav li:hover{
+    border-bottom:1px solid black;
 }
 
 .hero-wrap {
-    height: 100vh;
+    height: 90vh;
     min-height: 100%;
     position: relative;
     background-size: cover;
@@ -136,15 +142,41 @@ body {
     left:0;
     right:0;
     bottom:0;
-    opacity: .8;
-    background: #986e43;
+    opacity: .9;
+    background: #6f4839;
     z-index: -1;
 }
 
 .ftco-about-section .img {
     position: relative;
-    height:60vh;
+    height:70vh;
 
+}
+
+.coach-section p{
+    padding-right: 50px;
+}
+
+.circle{
+    width:63px;
+    height:63px;
+    background-color:white;
+    border:1px solid white;
+    border-radius:30px;
+    z-index:-1;
+    position:relative;
+}
+
+.fa-venus{
+    position:absolute;
+    top:6px;
+    left:17px;
+}
+
+.fa-mars{
+    position:absolute;
+    top:7px;
+    left:13px;
 }
 
 .img, .blog-img, .user-img {
@@ -181,7 +213,7 @@ body {
     right:0;
     bottom:0;
     opacity: .95;
-    background: #242424;
+    background: #151110;
     z-index: -1;
 }
 
