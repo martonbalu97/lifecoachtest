@@ -44,7 +44,11 @@ body {
 
 
 nav li:hover{
-    border-bottom:1px solid black;
+    border-bottom:2px solid black;
+}
+
+nav li{
+    font-weight:500;
 }
 
 .hero-wrap {
@@ -218,7 +222,7 @@ nav li:hover{
 }
 
 .apply-img{
-    height:30vh;
+    height:24vh;
     width:55vh;
     padding:0;
 
@@ -246,5 +250,104 @@ nav li:hover{
     -moz-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
     box-shadow: 0px 5px 25px -2px rgb(0 0 0 / 6%);
 }
+
+
+.circle-contact{
+    width:90px;
+    height:90px;
+    border: 1px solid white;
+    border-radius:50px;
+    z-index:1;
+    color:white;
+    background:white;
+    margin-right:200px;
+
+}
+
+.circle-contact-inner{
+    background:#6f4839;
+    width:80px;
+    height:80px;
+    border: 1px solid white;
+    border-radius:45px;
+}
+
+.bubbles{
+    height:28vh;
+    z-index:1;
+    position:absolute;
+    right:10px;
+    bottom:2px
+}
+
+.back-img:after{
+    content: "";
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    top: 30px;
+    right: -15px;
+    background: url(//www.slashcreative.co/themes/psychare/wp-content/themes/psychare/assets/css/../images/icons/process-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.ftco-process-section .img {
+    position: relative;
+    height:90vh;
+
+}
+
+.proccess-circle{
+    width:70px;
+    height:70px;
+    border: 1px solid #6f4839;
+    border-radius:40px;
+    background:#a67355;
+}
+
+.lines .proccess-circle:after{
+    content: "";
+    position: absolute;
+    left: 18%;
+    height: 46%;
+    top:300px;
+    border: 1px dashed #a47355;
+    z-index:-1;
+    opacity: .5;
+
+}
+
+.ftco-process-section .subheading{
+    font-family: Mulish,sans-serif;
+    font-weight:800;
+    font-size:18px;
+    color: #a67355;
+}
+
+.ftco-process-section p{
+    font-family: Mulish,sans-serif;
+    font-size:16px;
+    color:#5f5f5f;
+
+}
+
+.section-background{
+    padding-top: 85px !important;
+    padding-bottom: 100px !important;
+    background-image: url(http://www.slashcreative.co/themes/psychare/wp-content/uploads/2020/12/brush-effect-1-1.png?id=885) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+
+
+
+
+
+
+
 
 
