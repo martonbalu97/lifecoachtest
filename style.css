@@ -49,6 +49,7 @@ nav li:hover{
 
 nav li{
     font-weight:500;
+    color:#5f5f5f;
 }
 
 .hero-wrap {
@@ -78,6 +79,11 @@ nav li{
     min-height: 750px;
     color: rgba(255, 255, 255, 0.8);
     z-index: 3;
+}
+
+.help-block
+{
+    background: #ffffff url(http://www.slashcreative.co/themes/psychare/wp-content/uploads/2020/10/map-pattern.png?id=55) !important;
 }
 
 .ftco-section {
@@ -222,9 +228,10 @@ nav li{
 }
 
 .apply-img{
-    height:24vh;
-    width:55vh;
+    height:230px;
+    width:490px;
     padding:0;
+    object-position: center top;
 
 
 }
@@ -260,7 +267,7 @@ nav li{
     z-index:1;
     color:white;
     background:white;
-    margin-right:200px;
+    margin-right:250px;
 
 }
 
@@ -341,6 +348,226 @@ nav li{
     background-repeat: no-repeat !important;
     background-size: cover !important;
 }
+
+
+/*
+PROGRAMOK SECTION
+*/
+.row-z-index-63ca955f6d5ea {
+    z-index: 1;
+}
+
+.vc_row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.vc_col-sm-8, .vc_col-sm-9 {
+    float: left;
+}
+
+.vc_column_container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.vc_column_container > .vc_column-inner {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+.programs{
+    margin-top: 60px !important;
+    padding-bottom: 40px !important;
+    background-image: url(http://www.slashcreative.co/themes/psychare/wp-content/uploads/2020/12/brush-pattern-2-1-copy.png?id=888) !important;
+    background-position: bottom !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.programs card{
+    box-shadow: 8px 0px 101px -27px rgba(0,0,0,0.18);
+    -webkit-box-shadow: 8px 0px 101px -27px rgba(0,0,0,0.18);
+    -moz-box-shadow: 8px 0px 101px -27px rgba(0,0,0,0.18);
+}
+
+.card li span{
+    font-size:16px;
+}
+
+.card-header{
+    height:80px;
+}
+
+.price-side{
+    background-color:black;
+}
+
+
+/*
+HOVER EFFECTS
+*/
+
+
+
+@media only screen and (max-width: 767px) {
+  .apply-img{
+
+    width:60vmax;
+    height:247px;
+    margin-left:12px;
+
+  }
+
+  .circle-contact{
+    position:absolute;
+
+}
+
+.rounded-start {
+    border-bottom-left-radius: var(--bs-border-radius)!important;
+    border-top-left-radius: var(--bs-border-radius)!important;
+     border-bottom-right-radius: var(--bs-border-radius)!important;
+    border-top-right-radius: var(--bs-border-radius)!important;
+}
+
+.apply{
+    padding:70px 20px 70px 20px;
+
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+  .apply-img{
+
+    width:37vmin;
+    height:190px;
+    margin-left:11px;
+
+
+  }
+
+.circle-contact{
+    margin-right:20px;
+
+}
+
+.apply{
+    padding:0;
+
+
+}
+
+.bubbles{
+    display:none;
+}
+
+}
+
+@media only screen and (min-width: 992px) {
+  .apply-img{
+    width:48vmin;
+    height:210px;
+    margin-left:11px;
+
+  }
+
+  .circle-contact{
+    margin-right:85px;
+
+}
+
+.apply{
+    padding:0;
+    margin:0;
+
+}
+
+.bubbles{
+    display:block;
+}
+
+}
+
+@media only screen and (min-width: 1200px) {
+  .apply-img{
+    width:57vmin;
+    height:210px;
+    margin-left:11px;
+
+  }
+
+  .circle-contact{
+    margin-right:100px;
+
+}
+
+.apply{
+    padding:0;
+    margin:0;
+
+}
+
+}
+
+@media only screen and (min-width: 1400px) {
+  .apply-img{
+    width:63vmin;
+    height:230px;
+    margin-left:11px;
+
+  }
+
+  .circle-contact{
+    margin-right:170px;
+
+}
+
+.apply{
+    padding:0;
+    margin:0;
+
+}
+
+}
+
+@media only screen and (min-width: 1920px) {
+  .apply-img{
+    width:54vmin;
+    height:230px;
+    margin-left:11px;
+
+  }
+
+  .circle-contact{
+    margin-right:200px;
+
+}
+
+.apply{
+    padding:0;
+    margin:0;
+
+}
+
+}
+
+
+@media (min-width: 768px)
+.vc_col-sm-1, .vc_col-sm-10, .vc_col-sm-11, .vc_col-sm-12, .vc_col-sm-2, .vc_col-sm-3, .vc_col-sm-4, .vc_col-sm-5, .vc_col-sm-6, .vc_col-sm-7, .vc_col-sm-8, .vc_col-sm-9 {
+    float: left;
+}
+
+
+
+
+
+
+
+
 
 
 
