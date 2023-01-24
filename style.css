@@ -318,9 +318,9 @@ nav li{
     content: "";
     position: absolute;
     left: 18%;
-    height: 46%;
-    top:300px;
-    border: 1px dashed #a47355;
+    height: 47%;
+    top:340px;
+    border: 1px solid #a47355;
     z-index:-1;
     opacity: .5;
 
@@ -381,8 +381,8 @@ PROGRAMOK SECTION
 .programs{
     margin-top: 60px !important;
     padding-bottom: 40px !important;
-    background-image: url(http://www.slashcreative.co/themes/psychare/wp-content/uploads/2020/12/brush-pattern-2-1-copy.png?id=888) !important;
-    background-position: bottom !important;
+    background-image: url(http://www.slashcreative.co/themes/psychare/wp-content/uploads/2020/12/brush-effect-1-1.png?id=885) !important;
+    background-position: top !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
 }
@@ -405,6 +405,28 @@ PROGRAMOK SECTION
     background-color:black;
 }
 
+.subheading-price:before{
+    content: "";
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background: #a47355;
+    left: 0;
+    top: 6px;
+}
+
+.subheading-price:after{
+    content:'';
+    position:absolute;
+    top: 8px;
+    left: 14px;
+    height: 2px;
+    opacity: 1;
+    width: 50px;
+    opacity: .5;
+}
+
 
 /*
 HOVER EFFECTS
@@ -412,10 +434,11 @@ HOVER EFFECTS
 
 
 
+
 @media only screen and (max-width: 767px) {
   .apply-img{
 
-    width:60vmax;
+    width:90vmin;
     height:247px;
     margin-left:12px;
 
@@ -440,11 +463,70 @@ HOVER EFFECTS
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 300px) {
   .apply-img{
+    width:93.5vmin;
+    height:200px;
+    margin-left:12px;
 
-    width:37vmin;
-    height:190px;
+
+  }
+
+.circle-contact{
+    margin-right:20px;
+
+}
+
+.apply{
+    padding-top:70px;
+
+
+}
+
+@media only screen and (min-width: 400px) {
+  .apply-img{
+    width:94.2vmin;
+    height:210px;
+    margin-left:12px;
+
+
+  }
+
+.circle-contact{
+    margin-right:20px;
+
+}
+
+.apply{
+    padding-top:90px;
+
+
+}
+
+@media only screen and (min-width: 500px) {
+  .apply-img{
+    width:95.2vmin;
+    height:210px;
+    margin-left:12px;
+
+
+  }
+
+.circle-contact{
+    margin-right:20px;
+
+}
+
+.apply{
+    padding-top:90px;
+
+
+}
+
+@media only screen and (min-width: 576px) {
+  .apply-img{
+    width:90vmin;
+    height:210px;
     margin-left:11px;
 
 
@@ -456,10 +538,47 @@ HOVER EFFECTS
 }
 
 .apply{
-    padding:0;
+    padding-top:30px;
 
 
 }
+
+
+.bubbles{
+    display:none;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+  .apply-img{
+    width:54vmin;
+    height:230px;
+    margin-left:11px;
+
+
+  }
+
+.circle-contact{
+    margin-right:20px;
+
+}
+
+.apply{
+    padding:30px 90px 0 20px;
+
+
+}
+
+.apply-text{
+    font-size: 20px;
+}
+
+.apply-phone{
+    font-size:15px;
+}
+
+
 
 .bubbles{
     display:none;
@@ -469,7 +588,7 @@ HOVER EFFECTS
 
 @media only screen and (min-width: 992px) {
   .apply-img{
-    width:48vmin;
+    width:67vmin;
     height:210px;
     margin-left:11px;
 
@@ -494,7 +613,7 @@ HOVER EFFECTS
 
 @media only screen and (min-width: 1200px) {
   .apply-img{
-    width:57vmin;
+    width:80vmin;
     height:210px;
     margin-left:11px;
 
@@ -515,7 +634,7 @@ HOVER EFFECTS
 
 @media only screen and (min-width: 1400px) {
   .apply-img{
-    width:63vmin;
+    width:88vmin;
     height:230px;
     margin-left:11px;
 
@@ -536,7 +655,7 @@ HOVER EFFECTS
 
 @media only screen and (min-width: 1920px) {
   .apply-img{
-    width:54vmin;
+    width:52vmin;
     height:230px;
     margin-left:11px;
 
