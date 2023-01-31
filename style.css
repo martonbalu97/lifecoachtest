@@ -53,12 +53,12 @@ nav li{
 }
 
 .hero-wrap {
-    height: 90vh;
-    min-height: 100%;
-    position: relative;
+      background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #fff;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
+    position: relative;
     z-index: 0;
 
 }
@@ -163,9 +163,7 @@ nav li{
 
 }
 
-.coach-section p{
-    padding-right: 50px;
-}
+
 
 .circle{
     width:63px;
@@ -200,11 +198,11 @@ nav li{
     bottom: 0;
     right: 0;
     background: #fff;
-    padding: 30px;
+    padding: 20px;
 }
 
 .about-coaching{
-    font-size:1.3rem;
+    font-size:1.2rem;
     z-index:1;
 }
 
@@ -225,6 +223,21 @@ nav li{
     opacity: .95;
     background: #151110;
     z-index: -1;
+}
+
+.about-border{
+    position:relative;
+}
+.about-border:before{
+  content : "";
+  position: absolute;
+  left    : 0;
+  bottom  : 0;
+  margin-left:125px;
+  height  : 1px;
+  width   : 60%;  /* or 100px */
+  border-bottom:1px solid white;
+
 }
 
 .apply-img{
@@ -433,7 +446,7 @@ MEDIA QUERIES
 */
 
 
-@media only screen and (min-width: 300px) and (max-width: 400px) {
+@media only screen and (min-width: 300px)  {
   .apply-img{
     width:100%;
     min-width:330px;
@@ -443,6 +456,13 @@ MEDIA QUERIES
 
 
   }
+
+  .hero-wrap {
+    background-position: 30%;
+
+  }
+
+
 
 .circle-contact{
     margin-top:-40px;
@@ -460,6 +480,8 @@ MEDIA QUERIES
     display:none;
 }
 
+
+
 }
 
 @media only screen and (min-width: 400px) {
@@ -472,11 +494,15 @@ MEDIA QUERIES
 
   }
 
+
+
 .circle-contact{
     margin-top:-40px;
     margin-right:20px
 
 }
+
+
 
 .apply{
     padding-top:50px;
@@ -499,6 +525,8 @@ MEDIA QUERIES
 
 
   }
+
+
 
 .circle-contact{
     margin-right:20px;
