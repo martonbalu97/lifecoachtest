@@ -517,6 +517,12 @@ MEDIA QUERIES
 
 }
 
+.banner-text{
+   padding-top:100px;
+
+}
+}
+
 
 
 .circle-contact{
@@ -547,9 +553,32 @@ MEDIA QUERIES
 
 }
 
+.carousel .carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 160px;
+}
 
 }
 
+@media only screen and (min-width: 360px) and  (max-width: 370px) {
+.apply-img{
+    width:100%;
+    min-width:335px;
+    max-width:310px;
+    height:200px;
+    margin-left:12px;
+
+
+  }
+
+}
 
 
 @media only screen and (min-width: 390px)  {
