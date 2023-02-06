@@ -349,6 +349,16 @@ nav li:hover{
     background:#a67355;
 }
 
+.proc24{
+    width:60px;
+    height:60px;
+}
+
+.proc5{
+    width:50px;
+    height:50px;
+}
+
 .lines .proccess-circle:after{
     content: "";
     position: absolute;
