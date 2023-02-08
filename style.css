@@ -14,6 +14,12 @@ body {
     margin:0;
 }
 
+.banner-im{
+    width:200px;
+    height:80px;
+
+}
+
 .navbar-brand{
     font-family: 'Open Sans', sans-serif;
     text-transform:uppercase;
@@ -95,7 +101,7 @@ nav li:hover{
 }
 
 .ftco-section {
-    padding: 8em 0;
+    padding: 5em 0;
     position: relative;
     width: 100%;
     overflow-x: hidden;
@@ -472,6 +478,18 @@ PROGRAMOK SECTION
     opacity: .5;
 }
 
+.blog{
+    padding-top: 40px !important;
+    padding-bottom: 200px !important;
+    background: #f9f7f7 url(http://www.slashcreative.co/themes/psychare/wp-content/uploads/2020/11/pricing-bg.png?id=363) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+
+}
+
+
+
 
 /*
 MEDIA QUERIES
@@ -490,6 +508,12 @@ MEDIA QUERIES
   height  : 1px;
   width   :60%;  /* or 100px */
   border-bottom:1px solid white;
+
+}
+
+.banner-im{
+    width:170px;
+    height:60px;
 
 }
 
@@ -556,7 +580,7 @@ MEDIA QUERIES
 .lines .proccess-circle:after{
     content: "";
     position: absolute;
-    left: 13.5%;
+    left: 25%;
     height: 65%;
     top:340px;
     border: 1px solid #a47355;
@@ -626,7 +650,7 @@ MEDIA QUERIES
 
   .apply-img{
     width:100%;
-    min-width:350px;
+    min-width:355px;
     max-width:367px;
     height:200px;
     margin-left:12px;
@@ -649,7 +673,8 @@ MEDIA QUERIES
 
   .apply-img{
     width:100%;
-    max-width:390px;
+    min-width:388px;
+    max-width:388px;
     height:210px;
     margin-left:12px;
 
@@ -685,9 +710,9 @@ MEDIA QUERIES
 .lines .proccess-circle:after{
     content: "";
     position: absolute;
-    left: 14.5%;
-    height: 61%;
-    top:340px;
+    left: 25%;
+    height: 64%;
+    top:300px;
     border: 1px solid #a47355;
     z-index:-1;
     opacity: .5;
@@ -729,8 +754,8 @@ MEDIA QUERIES
 
   .apply-img{
     width:100%;
-    min-width:460px;
-    max-width:481px;
+    min-width:515px;
+    max-width:515px;
     height:210px;
     margin-left:12px;
 
@@ -769,9 +794,9 @@ MEDIA QUERIES
 .lines .proccess-circle:after{
     content: "";
     position: absolute;
-    left: 12.5%;
+    left: 25%;
     height: 60%;
-    top:340px;
+    top:250px;
     border: 1px solid #a47355;
     z-index:-1;
     opacity: .5;
@@ -851,7 +876,7 @@ MEDIA QUERIES
     width:100%;
     min-width:250px;
     max-width:320px;
-    height:210px;
+    height:235px;
     margin-left:11px;
 
 
@@ -859,11 +884,12 @@ MEDIA QUERIES
 
 .circle-contact{
     margin-right:20px;
+    margin-top:10px;
 
 }
 
 .apply{
-    padding:30px 90px 0 20px;
+    padding:30px 20px 0 20px;
 
 
 }
@@ -923,6 +949,7 @@ MEDIA QUERIES
 
 
   .apply-img{
+    min-width:380px;
     max-width:380px;
     height:210px;
     margin-left:11px;
@@ -943,6 +970,8 @@ MEDIA QUERIES
 
 .bubbles{
     display:block;
+    width:450px;
+    height:220px;
 }
 
 .lines .proccess-circle:after{
@@ -950,7 +979,73 @@ MEDIA QUERIES
     position: absolute;
     left: 16.5%;
     height: 52%;
-    top:360px;
+    top:370px;
+    border: 1px solid #a47355;
+    z-index:-1;
+    opacity: .5;
+
+}
+
+}
+
+@media only screen and (min-width: 992px) and (max-height:601px) {
+  .about-border:before{
+  content : "";
+  position: absolute;
+  left    : 0;
+  bottom  : 0;
+  margin-left:68px;
+  height  : 1px;
+  width   :60%;  /* or 100px */
+  border-bottom:1px solid white;
+
+}
+
+.about-border-last:before{
+  content : "";
+  position: absolute;
+  left    : 0;
+  bottom  : 0;
+  margin-left:-30px;
+  height  : 1px;
+  width   :120%;  /* or 100px */
+  border-bottom:1px solid white;
+
+}
+
+
+  .apply-img{
+    min-width:380px;
+    max-width:380px;
+    height:210px;
+    margin-left:11px;
+
+  }
+
+  .circle-contact{
+    margin-right:85px;
+    margin-top:0;
+
+}
+
+.apply{
+    padding:0;
+    margin:0;
+
+}
+
+.bubbles{
+    display:block;
+    width:450px;
+    height:220px;
+}
+
+.lines .proccess-circle:after{
+    content: "";
+    position: absolute;
+    left: 16.5%;
+    height: 54%;
+    top:300px;
     border: 1px solid #a47355;
     z-index:-1;
     opacity: .5;
@@ -985,7 +1080,7 @@ MEDIA QUERIES
     position: absolute;
     left: 18%;
     height: 58%;
-    top:330px;
+    top:250px;
     border: 1px solid #a47355;
     z-index:-1;
     opacity: .5;
@@ -996,7 +1091,8 @@ MEDIA QUERIES
 
 @media only screen and (min-width: 1400px) {
   .apply-img{
-    max-width:500px;
+    min-width:460px;
+    max-width:460px;
     height:230px;
     margin-left:11px;
 
