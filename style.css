@@ -328,18 +328,7 @@ nav li:hover{
     bottom:2px
 }
 
-.back-img:after{
-    content: "";
-    position: absolute;
-    width: 95%;
-    height: 100%;
-    top: 30px;
-    right: -15px;
-    background: url(//www.slashcreative.co/themes/psychare/wp-content/themes/psychare/assets/css/../images/icons/process-bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: -1;
-}
+
 
 .ftco-process-section .img {
     position: relative;
@@ -370,7 +359,7 @@ nav li:hover{
     position: absolute;
     left: 18%;
     height: 47%;
-    top:340px;
+    top:310px;
     border: 1px solid #a47355;
     z-index:-1;
     opacity: .5;
@@ -480,7 +469,7 @@ PROGRAMOK SECTION
 
 .blog{
     padding-top: 40px !important;
-    padding-bottom: 200px !important;
+    padding-bottom: 160px !important;
     background: #f9f7f7 url(http://www.slashcreative.co/themes/psychare/wp-content/uploads/2020/11/pricing-bg.png?id=363) !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -491,10 +480,36 @@ PROGRAMOK SECTION
 
 
 
+
+
+
 /*
 MEDIA QUERIES
 */
 
+@media (-webkit-min-device-pixel-ratio: 1.25) {
+    .ftco-about-section .img{
+        height:700px;
+    }
+
+    .ftco-process-section .img{
+        height:720px;
+    }
+
+    .lines .proccess-circle:after{
+    content: "";
+    position: absolute;
+    left: 25%;
+    height: 65%;
+    top:260px !important;
+    border: 1px solid #a47355;
+    z-index:-1;
+    opacity: .5;
+
+
+}
+
+}
 
 @media only screen and (min-width: 300px)  {
 
@@ -590,7 +605,7 @@ MEDIA QUERIES
 }
 
 .carousel .carousel-item {
-  height: 400px;
+  height: 200px;
 }
 
 .carousel-item img {
@@ -1177,6 +1192,10 @@ MEDIA QUERIES
     padding:0;
     margin:0;
 
+}
+
+.carousel .carousel-item {
+  height: 400px;
 }
 
 }
